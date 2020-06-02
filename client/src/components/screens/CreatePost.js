@@ -43,7 +43,7 @@ const CreatePost = ()=>{
         data.append("file",image)
         data.append("upload_preset","eshare")
         data.append("clound_name","bk")
-        fetch("	https://api.cloudinary.com/v1_1/dzbbxemwt/image/upload",{
+        fetch("https://api.cloudinary.com/v1_1/dzbbxemwt/image/upload",{
             method: "post",
             body: data
 
